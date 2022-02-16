@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import TableData from './table';
+import store from './store/store';
+import pstore from './store/store';
+import {Provider} from 'react-redux';
+import Sample from './sample';
+import { PersistGate } from 'redux-persist/integration/react';
+import AllTab from './tab';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Provider store={store} >
+        
+     <AllTab/>
+     
+     </Provider>
     </div>
   );
 }
