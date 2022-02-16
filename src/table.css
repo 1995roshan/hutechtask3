@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font: 10px;
+}
+
+#table {
+  background-color: #efeeee;
+  padding: 7rem;
+}
+
+.ant-table-thead > tr > th {
+  background-color: white;
+  color: #4b91ff;
+  text-align: center;
+}
+
+.ant-table {
+  padding: 0px 7px 0px 7px;
+}
+
+.ant-table-row {
+  text-align: center;
+}
+
+.ant-table-pagination-right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=table.css.map */

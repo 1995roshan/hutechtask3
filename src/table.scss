@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font:10px;
+}
+//variable
+$marg:7rem;
+$linkBlue: #4b91ff;
+
+#table{
+    background-color: #efeeee;
+    padding: $marg ;}
+
+.ant-table-thead > tr > th {
+background-color: white ;
+color: $linkBlue;
+text-align: center  ;
+    }
+
+    .ant-table {
+        padding: 0px 7px 0px 7px;
+    }
+.ant-table-row  {
+    text-align: center  ;
+}
+.ant-table-pagination-right {
+    justify-content: center;
+}
