@@ -14,7 +14,7 @@ const AllTab=()=>{
       }
  
     function callback(key) {
-        console.log(key);
+        console.log("key",key);
       }
 
 return (
